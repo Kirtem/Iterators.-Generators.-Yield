@@ -6,7 +6,7 @@ class FlatIterator:
         self.list_of_list = list_of_lists
 
     def __iter__(self):
-        self.list_iter = iter(self.list_of_lists)
+        self.list_iter = iter(self.list_of_list)
         self.inner_list = []
         self.cursor = -1
         return self
